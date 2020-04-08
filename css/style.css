@@ -254,6 +254,12 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    background: var(--clr-dark);
+}
+
+.intro__img__2 {
+    box-shadow: var(--bs);
+    background: var(--clr-dark);
 }
 
 .section__subtitle--intro {
@@ -401,7 +407,7 @@ header {
 }
 
 .portfolio__item_2 {
-    background: var(--clr-dark_2);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
