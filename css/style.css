@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-dark_2: #1ba261;
+    --clr-dark2: #1ba261;
     --clr-accent: #9BE564;
     
     --fs-h1: 3rem;
@@ -257,9 +257,14 @@ header {
     background: var(--clr-dark);
 }
 
-.intro__img__2 {
+.intro__img2 {
     box-shadow: var(--bs);
-    background: var(--clr-dark);
+    background: var(--clr-dark2);
+}
+
+.intro__img3 {
+    box-shadow: var(--bs);
+    background: var(--clr-light);
 }
 
 .section__subtitle--intro {
@@ -283,7 +288,21 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
-    }    
+    }
+    
+    .intro__img2 {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .intro__img3 {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
+    }
     
     .section__subtitle--intro {
         align-self: start;
@@ -346,6 +365,11 @@ header {
     }
 }
 
+/* For spaces */
+.tab { 
+    display:inline-block; 
+    margin-left: 150px; 
+}
 
 .about-me {
     max-width: 1000px;
